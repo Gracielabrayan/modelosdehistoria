@@ -1,10 +1,8 @@
-/* Estilos para el modal de carga */
-.modal-backdrop.show {
-    opacity: 0.5;
-}
 /* Estilo para background de formulario */
 body {
     background-color: rgb(205, 247, 193);
 }
+
+
 
 
