@@ -1,0 +1,251 @@
+
+* {
+	margin: 0;
+	padding: 50;
+   
+}
+
+body {
+	background: #1F4172;
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+    margin-right: 13%;
+    
+}
+
+
+
+
+
+
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, auto);
+
+	grid-template-areas: "header header header"
+						 "contenido contenido sidebar"
+						 "widget-1 widget-2 sidebar"
+						 "footer footer footer";
+}
+
+
+
+.contenedor > div,
+.contenedor .header,
+.contenedor .contenido,
+.contenedor .sidebar,
+.contenedor .footer {
+	background: #fff;
+	padding: 10px;
+	border-radius: 4px;
+    
+}
+
+.contenedor .header {
+	background: #12203E;
+	color: #fff;
+	grid-area: header;
+}
+
+
+/* */
+
+
+@media screen and (max-width: 768px){
+	.contenedor {
+		grid-template-areas: "header header header"
+						 "contenido contenido contenido"
+						 "sidebar sidebar sidebar"
+						 "widget-1 widget-1 widget-2"
+						 "footer footer footer";
+	}
+}
+
+
+
+.galeria .principal {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+    box-shadow:#000 ;
+    object-fit:unset;
+}
+
+ .galeria .secundarias_contenedor {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.galeria .secundarias_contenedor .secundarias{
+    width: 90px;
+    height: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: .3s ;
+}
+
+.galeria .secundarias_contenedor .secundarias:hover{
+    opacity: 1;
+}
+
+.active {
+    opacity: 1 !important;
+    box-shadow: 0 5px 5px black;
+}
+
+
+
+--------------------------------------------------
+
+.galeria3 .principal3 {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+    box-shadow:#000 ;
+    object-fit:unset;
+}
+
+ .galeria3 .secundarias_contenedor3 {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.galeria3 .secundarias_contenedor3 .secundarias3{
+    width: 90px;
+    height: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: .3s ;
+}
+
+.galeria3 .secundarias_contenedor3 .secundarias3:hover{
+    opacity: 1;
+}
+
+.active {
+    opacity: 1 !important;
+    box-shadow: 0 5px 5px black;
+}
+
+
+
+
+
+.galeria2 .principal2 {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+    box-shadow:#000 ;
+    object-fit:unset;
+}
+
+ .galeria2 .secundarias_contenedor2 {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.galeria2 .secundarias_contenedor2 .secundarias2{
+    width: 90px;
+    height: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: .3s ;
+}
+
+.galeria2 .secundarias_contenedor2 .secundarias2:hover{
+    opacity: 1;
+}
+
+.active {
+    opacity: 1 !important;
+    box-shadow: 0 5px 5px black;
+}
+
+
+
+
+.galeria4 .principal4 {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+    box-shadow:#000 ;
+    object-fit:unset;
+}
+
+ .galeria4 .secundarias_contenedor4 {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.galeria4 .secundarias_contenedor4 .secundarias4{
+    width: 90px;
+    height: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: .3s ;
+}
+
+.galeria4 .secundarias_contenedor4 .secundarias4:hover{
+    opacity: 1;
+}
+
+.active {
+    opacity: 1 !important;
+    box-shadow: 0 5px 5px black;
+}
+
+
+-------------------------------------------------
+
+
+.galeria5 .principal5 {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+    box-shadow:#000 ;
+    object-fit:fill;
+   
+}
+
+ .galeria5 .secundarias_contenedor5 {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.galeria5 .secundarias_contenedor5 .secundarias5{
+    width: 90px;
+    height: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: .3s ;
+}
+
+.galeria5 .secundarias_contenedor5 .secundarias5:hover{
+    opacity: 1;
+}
+
+.active {
+    opacity: 1 !important;
+    box-shadow: 0 5px 5px black;
+}
