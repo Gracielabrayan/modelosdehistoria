@@ -1,21 +1,27 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-.container {
-    flex: 1;
-    padding: 20px;
-    /* Tus estilos para el contenedor */
-}
-
+/* Estilos para el footer */
 footer {
     background-color: #f8f9fa;
     padding: 20px;
     text-align: center;
     margin-top: auto;
+}
+
+/* Estilos para la imagen dentro del footer */
+footer img {
+    max-width: 100%; /* La imagen no excederá el ancho del contenedor padre */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+}
+
+/* Media query para hacer el footer responsive */
+@media (max-width: 768px) {
+    footer {
+        padding: 15px;
+    }
+}
+
+/* Otras media queries para tamaños de pantalla diferentes si es necesario */
+@media (max-width: 576px) {
+    footer {
+        padding: 10px;
+    }
 }
