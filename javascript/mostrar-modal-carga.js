@@ -1,9 +1,9 @@
-// Función para mostrar el modal de carga
+// Mostrar el modal de carga
 function mostrarModalCarga() {
-    document.getElementById('modalCarga').style.display = 'block';
+    document.getElementById('modalCarga').style.display = 'flex';
 }
 
-// Función para ocultar el modal de carga
+// Ocultar el modal de carga
 function ocultarModalCarga() {
     document.getElementById('modalCarga').style.display = 'none';
 }
