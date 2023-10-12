@@ -3,4 +3,9 @@ body {
     background-color: rgba(28, 91, 207, 0.322);
 }
 
-
+.container {
+    background-color: rgba(255, 255, 255, 0.349);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+}
