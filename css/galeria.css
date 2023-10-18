@@ -20,8 +20,8 @@ body {
 
 
 .contenedor {
+    padding: 0;
 	width: 90%;
-	max-width: 1000px;
 	margin: 20px auto;
 	display: grid;
 	grid-gap: 20px;
@@ -34,8 +34,62 @@ body {
 						 "footer footer footer";
 }
 
+/* Header NAV */
+.contenedor .header {
+    display: flex ; 
+    justify-content: flex-end ;
+    align-items: center ;
+    height: 85px ;
+    padding: 5px 10px ;
+    width: 100% ;
+    margin: 0% ;
+    padding: 0;
+}
 
+.header .logo {
+    margin-right: auto;
+}
+.contenedor .header .nav-links li {
+    display: inline-block;
+    padding: 5px 15px ;
+    background-color:#12203E;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.contenedor .header .nav-links li:hover {
+    transform: scale(1.1);
+}
 
+.contenedor .header .nav-links a {
+    font-size: 700;
+    color:white;
+    text-decoration: none;
+    
+}
+
+.contenedor .header  .nav-links li:hover{
+    background-color: white;
+}
+.contenedor .header  .nav-links li a:hover{
+color:#1F4172;
+}
+
+.contenedor .header .btn button {
+    font-size: 700;
+    color:white;
+    padding: 8px 25px;
+    background:#12203E;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.contenedor .header .btn button:hover {
+    background-color: white;
+    color:#1F4172 ;
+}
 .contenedor > div,
 .contenedor .header,
 .contenedor .contenido,
@@ -48,13 +102,12 @@ body {
 }
 
 .contenedor .header {
-	background: #12203E;
+    height: 85px;
+    background: #12203E;
 	color: #fff;
 	grid-area: header;
-}
-
-
-/* */
+    justify-content: space-between;}
+/* Header NAV */
 
 
 @media screen and (max-width: 768px){
@@ -244,6 +297,7 @@ body {
 .galeria5 .secundarias_contenedor5 .secundarias5:hover{
     opacity: 1;
 }
+
 
 .active {
     opacity: 1 !important;
